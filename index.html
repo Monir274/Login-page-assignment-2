@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wellcome to My login page -Microsoft 365</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------css all link up------>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+ <script src="https://kit.fontawesome.com/ae163c3f97.js" crossorigin="anonymous"></script>
+  
+<!--  ----------js vailidation code------------>
+  <script>
+   function validateForm() {
+  var x = document.forms["myForm"]["email"].value;
+  var y = document.forms["myForm"]["password"].value;
+  var z = document.forms["myForm"]["checkbox"].value;
+  if (x == "") {
+    alert("E-mail must be filled out");
+    return false;
+  }
+    if (y == "") {
+    alert("Password must be filled out");
+    return false;
+  }
+    if (z == "") {
+    alert("Checkbox must be chcked");
+    return false;
+  }
+       
+       
+       
+}  
+    
+  
+    </script>
+    
+</head>
+
+
+<body>
+ <div class="sec-1" style="background: url(images/backgroundk3.jpg);background-position: right;background-repeat: no-repeat;background-size: cover;">
+     <div class="sec-1-wrap size">
+        <div class="logo">
+           <div class="logo-img"><h2>Microsoft 365</h2></div>
+            <div class="logo-title"><p>Your productivity cloud across work and life.</p></div>
+            
+            
+        </div>
+         
+<div class="form-sec">
+<!-- ---------Login Page---------  -->
+
+<div class="page-wraper">
+    
+
+<div class="login-page">
+    <div class="logo">
+        <i class="fas fa-user"></i>
+    </div>
+     
+    <div class="title">
+        <h2>LOGIN TO CONTINUE</h2>
+        <p></p>
+    </div>
+    
+    <div class="login-form">
+     <form action="">
+         <input type="Email" name="mail" placeholder="E-mail or User Name">  <br> 
+      <input type="password" name="password" placeholder="Password">  <br>
+        <input type="submit"value="Login" style="width: 95%;
+    background: #9292f6;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;">
+         
+         
+         
+         
+     </form>  
+       
+       
+        
+   
+   
+    </div>
+    
+    <div class="account-create">
+        <div class="create-btn"><a href="#" >Create Account</a></div>
+         <div class="reset-btn"><a href="#">Forget Password</a></div>
+        
+        
+        
+    </div>
+    
+    
+    
+    
+<div class="social-media">
+    <div class="soci-title"><span>Or Login With E-mail</span></div>
+    <div class="socio-icon">
+      <a href="#">Facebook</a>  
+      <a href="#">Twitter</a>  
+      <a href="#">Google+</a>  
+      <a href="#">Linkedin</a>  
+    </div>
+    
+</div>
+
+  
+</div>
+   <!-----------Register Page-------    -->
+   <div class="register-page">
+      <div class="logo">
+        <i class="fas fa-user"></i>
+    </div>    
+    <div class="title">
+        <h2>CREATE YOUR ACCOUNT</h2>
+        <p></p>
+    </div>
+    
+    <div class="login-form">
+    
+     <form action="">
+         <input type="text" name="fname" placeholder="First Name"> <br>
+         <input type="text" name="lname" placeholder="Last Name"> <br>
+         
+         <input type="email" name="email" placeholder="E-mail">  <br> 
+         <input type="password" name="password" placeholder="Password">  <br> 
+        <input type="submit"value="Resgister" style="width: 95%;
+    background: #9292f6;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;">
+         
+         
+         
+         
+     </form>  
+       
+       
+        
+   
+   
+    </div>
+    
+ <div class="account-create">
+        <div class="create-btn2"><a href="#" >Login</a></div>
+         <div class="reset-btn3"><a href="#">Forget Password</a></div>
+        
+        
+        
+    </div>
+    
+    
+    
+<!--
+<div class="social-media">
+    <div class="soci-title"><span>Or Login With E-mail</span></div>
+    <div class="socio-icon">
+      <a href="#">Facebook</a>  
+      <a href="#">Twitter</a>  
+      <a href="#">Google+</a>  
+      <a href="#">Linkedin</a>  
+    </div>
+    
+</div> 
+-->
+   </div> 
+
+
+<!---------reset-page-->
+
+ <div class="reset-page">
+      <div class="logo">
+        <i class="fas fa-user"></i>
+    </div>    
+    <div class="title">
+        <h2>CREATE YOUR ACCOUNT</h2>
+        <p></p>
+    </div>
+    
+    <div class="login-form">
+    
+     <form action="">
+         <input type="email" name="email" placeholder="Enter Your E-mail">  <br> 
+        <input type="submit"value="Reset Now" style="width: 95%;
+    background: #9292f6;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;">
+         
+         
+         
+         
+     </form>  
+       
+       
+        
+   
+   
+    </div>
+    
+ <div class="account-create">
+        <div class="create-btn3"><a href="#" >Login</a></div>
+         <div class="reset-btn2"><a href="#">Register</a></div>
+        
+        
+        
+    </div>
+    
+    
+    
+<!--
+<div class="social-media">
+    <div class="soci-title"><span>Or Login With E-mail</span></div>
+    <div class="socio-icon">
+      <a href="#">Facebook</a>  
+      <a href="#">Twitter</a>  
+      <a href="#">Google+</a>  
+      <a href="#">Linkedin</a>  
+    </div>
+    
+</div> 
+-->
+   </div> 
+
+</div>   
+
+    
+    
+    
+   
+</div>       
+         
+         
+         
+         
+         
+     </div>
+     
+ </div>  
+   
+   <script>
+       
+       
+   document.querySelector(".account-create .create-btn a").addEventListener("click",function(){
+    document.querySelector(".register-page").setAttribute("style","transform: scaleX(1);");
+});
+    
+  document.querySelector(".account-create .create-btn a").addEventListener("click",function(){
+    document.querySelector(".login-page").setAttribute("style","transform: scaleX(0);transform-origin: right;transition: 1s;");
+});
+// --------login----  
+document.querySelector(".account-create .create-btn2 a").addEventListener("click",function(){
+    document.querySelector(".register-page").setAttribute("style","transform: scaleX(0);");
+});
+       
+ document.querySelector(".account-create .create-btn2 a").addEventListener("click",function(){
+    document.querySelector(".login-page").setAttribute("style","transform: scaleX(1);transition:1.2s;");
+})
+          
+//reset page script
+
+document.querySelector(".account-create .reset-btn a").addEventListener("click",function(){
+    document.querySelector(".reset-page").setAttribute("style","transform: scaleX(1);");
+});
+       
+    document.querySelector(".account-create .reset-btn a").addEventListener("click",function(){
+    document.querySelector(".login-page").setAttribute("style","transform: scaleX(0);transition:1s;transform-origin: right;");
+});
+       
+ document.querySelector(".account-create .create-btn3 a").addEventListener("click",function(){
+    document.querySelector(".login-page").setAttribute("style","transform: scaleX(1);transition:1s;");
+});
+    document.querySelector(".account-create .create-btn3 a").addEventListener("click",function(){
+    document.querySelector(".reset-page").setAttribute("style","transform: scaleX(0);");
+});
+        
+ document.querySelector(".account-create .reset-btn2 a").addEventListener("click",function(){
+    document.querySelector(".reset-page").setAttribute("style","transform: scaleX(0);transform-origin: right !important;");
+});
+    document.querySelector(".account-create .reset-btn2 a").addEventListener("click",function(){
+    document.querySelector(".register-page").setAttribute("style","transform: scaleX(1);");
+});
+           
+// -------------rgister page----   
+  document.querySelector(".account-create .reset-btn3 a").addEventListener("click",function(){
+    document.querySelector(".register-page").setAttribute("style","transform: scaleX(0);transform-origin: right;");
+});
+    document.querySelector(".account-create .reset-btn3 a").addEventListener("click",function(){
+    document.querySelector(".reset-page").setAttribute("style","transform: scaleX(1);");
+});
+       
+    
+    
+    </script>
+ 
+    
+</body>
+</html>

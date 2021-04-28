@@ -1,0 +1,136 @@
+@media only screen and (min-width: 320px) and (max-width:479px){
+.sec-1 .sec-1-wrap {
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}    
+.sec-1 .sec-1-wrap .logo {
+    margin-left: 0;
+    text-align: center;
+} 
+.sec-1 .sec-1-wrap .logo .logo-title p {
+    font-size: 16px;
+}    
+    
+.sec-1 .sec-1-wrap .logo .logo-img h2 {
+    font-size: 37px;
+}    
+.sec-1 .sec-1-wrap .form-sec {
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 10px;
+} 
+ .sec-1 .sec-1-wrap .form-sec .social-media .socio-icon {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
+    
+    
+    
+    /*-----------responsive end curly-----*/
+}
+
+
+@media only screen and (min-width: 479px) and (max-width:715px){
+.sec-1 .sec-1-wrap {
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}    
+.sec-1 .sec-1-wrap .logo {
+    margin-left: 0;
+    text-align: center;
+} 
+.sec-1 .sec-1-wrap .logo .logo-title p {
+    font-size: 16px;
+}    
+    
+.sec-1 .sec-1-wrap .logo .logo-img h2 {
+    font-size: 50px;
+}    
+.sec-1 .sec-1-wrap .form-sec {
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 10px;
+} 
+ .sec-1 .sec-1-wrap .form-sec .social-media .socio-icon {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
+    
+    
+    
+    /*-----------responsive end curly-----*/
+}
+
+
+
+@media only screen and (min-width: 715px) and (max-width:1024px){
+.sec-1 .sec-1-wrap {
+    padding: 0px 10px;
+}    
+.sec-1 .sec-1-wrap .logo {
+    margin-left: 0;
+    text-align: center;
+} 
+.sec-1 .sec-1-wrap .logo .logo-title p {
+    font-size: 16px;
+}    
+    
+.sec-1 .sec-1-wrap .logo .logo-img h2 {
+    font-size: 50px;
+}    
+.sec-1 .sec-1-wrap .form-sec {
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 10px;
+} 
+ .sec-1 .sec-1-wrap .form-sec .social-media .socio-icon {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    
+    
+    
+    
+    /*-----------responsive end curly-----*/
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width:1200px){
+.sec-1 .sec-1-wrap {
+    padding: 0px 10px;
+}    
+.sec-1 .sec-1-wrap .logo {
+    margin-left: 0;
+    text-align: center;
+} 
+.sec-1 .sec-1-wrap .logo .logo-title p {
+    font-size: 16px;
+}    
+    
+.sec-1 .sec-1-wrap .logo .logo-img h2 {
+    font-size: 50px;
+}    
+.sec-1 .sec-1-wrap .form-sec {
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 10px;
+} 
+ .sec-1 .sec-1-wrap .form-sec .social-media .socio-icon a {
+  
+}
+
+    
+    
+    
+    
+    -----------responsive end curly-----
+}
